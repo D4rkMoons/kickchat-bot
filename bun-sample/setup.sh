@@ -1,6 +1,9 @@
 #!/bin/sh
 
 # install rust
+# Debian
+apt-get install zsh curl python3
+
 curl -fsSL https://bun.sh/install | bash
 
 # apply on all shells
